@@ -6,6 +6,7 @@ from creds import username, pw, baseurl
 Important classes - 
 1. Like button - fr66n
 2. Next post arrow - coreSpriteRightPaginationArrow
+3. First post on the profile - _9AhH0
 '''
 
 
@@ -108,16 +109,15 @@ class insta_bot:
                     self.like_pic()
                     sleep(2)
         except:
-            self.profileChecker('rohan__kamath')
+            self.profileChecker('add profile to like here')
 
 
 kamath_kool = insta_bot(username, pw)
 kamath_kool.login()
-kamath_kool.profileChecker('rohan__kamath')
+kamath_kool.profileChecker('add profile to like here')
 kamath_kool.first_picture()
 kamath_kool.like_pic()
 kamath_kool.next_pic()
 kamath_kool.liking_loop()
-# kamath_kool.profile_post_liker()
-# kamath_kool.hashChecker('bangalore')
-# kamath_kool.post_liker(8)
+# kamath_kool.hashChecker('add hashtag here')
+# kamath_kool.post_liker(add integer amount here)
